@@ -21,9 +21,10 @@ var MCFileWriterUtil = NativeModules.MCFileWriterUtil;
 var CalendarManager = NativeModules.CalendarManager;
 // var AceMapManager = NativeModules.AceMapManager;
 var AceMapManager = requireNativeComponent('AceMapManager', null);
+var MyCustomView = requireNativeComponent('MyCustomView', null);
 
 
-class MyProject extends Component {
+class MyProject2 extends Component {
 
 
   componentDidMount() {
@@ -46,12 +47,31 @@ class MyProject extends Component {
   }
 }
 
+
+
+class MyProject extends Component {
+  render() {
+    return (
+      <MyCustomView style={styles.container} />
+    );
+  }
+}
+
+
 const styles = StyleSheet.create({
-  container: {
+  // container: {
+  //   flex: 1,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   backgroundColor: '#F5FCFF',
+  // },
+  container:{
+    // padding:30,
+    // marginTop:0,
+    // borderColor:'#e7e7e7',
+    marginTop:100,
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'yellow',
   },
   welcome: {
     fontSize: 20,

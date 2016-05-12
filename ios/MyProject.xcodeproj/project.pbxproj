@@ -14,6 +14,8 @@
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* MyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyProjectTests.m */; };
 		0B449B0F1CE3005B007F8323 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B449B0E1CE3005B007F8323 /* CalendarManager.m */; };
+		0B5CAC9E1CE4752600D1CB86 /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CAC9D1CE4752600D1CB86 /* MyCustomView.m */; };
+		0B5CACAB1CE4765200D1CB86 /* MyCustomViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CACAA1CE4765200D1CB86 /* MyCustomViewManager.m */; };
 		0B5E5CCE1CE30FB600472593 /* MCFileWriterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E5CCD1CE30FB600472593 /* MCFileWriterUtil.m */; };
 		0B62AB5E1CE33786005D3877 /* AceMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B62AB5D1CE33786005D3877 /* AceMapManager.m */; };
 		0B62AB6B1CE337BF005D3877 /* AceMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B62AB6A1CE337BF005D3877 /* AceMapView.m */; };
@@ -120,6 +122,10 @@
 		00E356F21AD99517003FC87E /* MyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProjectTests.m; sourceTree = "<group>"; };
 		0B449B0D1CE3005B007F8323 /* CalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
 		0B449B0E1CE3005B007F8323 /* CalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
+		0B5CAC9C1CE4752600D1CB86 /* MyCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomView.h; sourceTree = "<group>"; };
+		0B5CAC9D1CE4752600D1CB86 /* MyCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomView.m; sourceTree = "<group>"; };
+		0B5CACA91CE4765200D1CB86 /* MyCustomViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomViewManager.h; sourceTree = "<group>"; };
+		0B5CACAA1CE4765200D1CB86 /* MyCustomViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomViewManager.m; sourceTree = "<group>"; };
 		0B5E5CCC1CE30FB600472593 /* MCFileWriterUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFileWriterUtil.h; sourceTree = "<group>"; };
 		0B5E5CCD1CE30FB600472593 /* MCFileWriterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFileWriterUtil.m; sourceTree = "<group>"; };
 		0B62AB5C1CE33786005D3877 /* AceMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AceMapManager.h; sourceTree = "<group>"; };
@@ -253,6 +259,10 @@
 				0B62AB6A1CE337BF005D3877 /* AceMapView.m */,
 				0B62AB5C1CE33786005D3877 /* AceMapManager.h */,
 				0B62AB5D1CE33786005D3877 /* AceMapManager.m */,
+				0B5CAC9C1CE4752600D1CB86 /* MyCustomView.h */,
+				0B5CAC9D1CE4752600D1CB86 /* MyCustomView.m */,
+				0B5CACA91CE4765200D1CB86 /* MyCustomViewManager.h */,
+				0B5CACAA1CE4765200D1CB86 /* MyCustomViewManager.m */,
 				0B5E5CCC1CE30FB600472593 /* MCFileWriterUtil.h */,
 				0B5E5CCD1CE30FB600472593 /* MCFileWriterUtil.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -567,7 +577,9 @@
 				0B5E5CCE1CE30FB600472593 /* MCFileWriterUtil.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				0B5CAC9E1CE4752600D1CB86 /* MyCustomView.m in Sources */,
 				0B449B0F1CE3005B007F8323 /* CalendarManager.m in Sources */,
+				0B5CACAB1CE4765200D1CB86 /* MyCustomViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

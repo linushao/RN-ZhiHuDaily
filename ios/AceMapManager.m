@@ -15,6 +15,9 @@ RCT_EXPORT_MODULE()
 
 - (UIView *)view {
   return [[MKMapView alloc] init];
+//  UIView *vi = [[UIView alloc] init];
+//  vi.backgroundColor = [UIColor greenColor];
+//  return vi;
 }
 
 @end
